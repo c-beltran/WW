@@ -42,7 +42,7 @@ public class RandomGenerator {
 		int userInputNumber = input.nextInt();
 		
 		while(userInputNumber <= 0 || userInputNumber > 500) {
-			System.out.println("Zero or negative numbers are not allowed, please try a number from 1 to 500.");
+			System.out.println("Zero, negative, or numbers greater than 500 are not allowed, please try a number from 1 to 500.");
 			userInputNumber = input.nextInt();
 		}
 		
